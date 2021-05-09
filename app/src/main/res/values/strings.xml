@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="_0_c">0°C</string>
+    <string name="fetching">Fetching...</string>
+    <string name="Loading">--------</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="search_for_new_city">Search for new city</string>
+</resources>
