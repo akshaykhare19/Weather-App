@@ -26,7 +26,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/searchCity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/search_for_new_city"
@@ -36,6 +36,7 @@
         android:textColor="#f5f5f5"
         android:layout_marginBottom="20sp"
         android:background="@drawable/rounded_corner"
+        android:onClick="findCity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
@@ -46,7 +47,7 @@
         android:orientation="vertical"
         android:layout_marginBottom="30dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintBottom_toTopOf="@id/searchCity"
         app:layout_constraintTop_toTopOf="@id/guideline">
 
         <TextView
@@ -72,7 +73,7 @@
             android:layout_weight="1"/>
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#f5f5f5"
