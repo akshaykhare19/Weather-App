@@ -69,22 +69,6 @@ class MainActivity : AppCompatActivity() {
                 val latitude: String = location.latitude.toString()
                 val longitude: String = location.longitude.toString()
 
-                // Instantiate the RequestQueue.
-                val url = WEATHER_URL
-
-//// Request a string response from the provided URL.
-//                val stringRequest = StringRequest(
-//                    Request.Method.GET, url, null
-//                    Response.Listener { response ->
-//                        var params: Map<String, String> = HashMap()
-//                        params.put("lat", latitude)
-//                        params.put("lon", longitude)
-//                    },
-//                    Response.ErrorListener { })
-//
-//// Add the request to the RequestQueue.
-//                MySingleton.getInstance(this).addToRequestQueue(stringRequest)
-
 
             }
         }
